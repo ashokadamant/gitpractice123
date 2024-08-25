@@ -18,6 +18,7 @@ public class Grouping {
         System.out.println("commit from datajpacommit1");
         System.out.println("commit2 from restworkspace");
         System.out.println("commit1inbranchfromdatajpa");
+        System.out.println("commit1 in branch1 from rest ");
 	}
 
 }
