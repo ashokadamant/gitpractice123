@@ -15,6 +15,7 @@ public class Grouping {
 		List<Integer> numbers=new ArrayList<>(Arrays.asList(1,2,3,1,4,2,2,2,2,6,6,6,1,9));
 		Map<Integer, Optional<Integer>> maps = numbers.stream().collect(Collectors.groupingBy(Function.identity(),Collectors.reducing((a,b)->a+b)));
          System.out.println(maps);
+        System.out.println("commit from datajpacommit1");
 	}
 
 }
